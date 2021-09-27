@@ -36,7 +36,7 @@
     "node-sass": "^6.0.1",
     "prettier": "^2.2.1",
     "sass": "^1.42.1",
-    "sass-loader": "^10",
+    "sass-loader": "^12",
     "typescript": "~3.9.3",
     "unplugin-vue-components": "^0.15.4",
     "vue-jest": "^5.0.0-0"
