@@ -14,6 +14,8 @@ import logger from './plugins/logger';
 import './plugins/fontawesome';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import VueMarkdownEditor from './plugins/markdownEditor';
+import i18n from "@/plugins/i18n";
+import 'dayjs/locale/zh-cn.js';
 
 // external styles
 import 'tippy.js/dist/tippy.css';
@@ -34,6 +36,7 @@ app.use(store);
 app.use(ElementPlus);
 app.use(logger);
 app.use(VueMarkdownEditor);
+app.use(i18n);
 
 app.component('base-card', BaseCard);
 app.component('font-awesome-icon', FontAwesomeIcon);
