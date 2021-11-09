@@ -1,4 +1,4 @@
-import { createI18n } from "vue-i18n";
+import { createI18n } from 'vue-i18n';
 import elementLangEn from 'element-plus/lib/locale/lang/en';
 import elementLangZhCn from 'element-plus/lib/locale/lang/zh-cn';
 
@@ -10,7 +10,7 @@ const messages = {
     ...localeLangZhCn,
     ...elementLangZhCn
   },
-  'en': {
+  en: {
     ...localeLangEn,
     ...elementLangEn
   }

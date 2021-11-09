@@ -14,7 +14,7 @@ import logger from './plugins/logger';
 import './plugins/fontawesome';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import VueMarkdownEditor from './plugins/markdownEditor';
-import i18n from "@/plugins/i18n";
+import i18n from '@/plugins/i18n';
 import 'dayjs/locale/zh-cn.js';
 
 // external styles
