@@ -609,7 +609,7 @@ export default defineComponent({
         message: '上传成功',
         duration: 1000
       });
-      articleSettings.backgroundUrl = `https://purr.group${response.data.url}`;
+      articleSettings.backgroundUrl = `${response.data.url}`;
       showCoverPreview();
     };
 

@@ -20,7 +20,7 @@
           title="单击以下载"
         >
           <el-image
-            :src="'https://purr.group' + media.url"
+            :src="media.url"
             :alt="`cover image of ${media.originalName}`"
             lazy
           >

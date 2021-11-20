@@ -10,7 +10,7 @@
   >
     <div class="media-preview-header" title="点击以查看详情">
       <el-image
-        :src="'https://purr.group' + media.thumbnailPath"
+        :src="media.thumbnailPath"
         :alt="`cover image of ${media.originalName}`"
         lazy
       >
