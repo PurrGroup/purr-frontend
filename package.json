@@ -25,7 +25,7 @@
     "element-plus": "1.1.0-beta.16",
     "highlight.js": "^11.3.1",
     "nprogress": "^0.2.0",
-    "tippy.js": "^6.3.2",
+    "tippy.js": "^6.3.7",
     "vue": "^3.2.19",
     "vue-echarts": "^6.0.0",
     "vue-logger-plugin": "^2.1.3",
